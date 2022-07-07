@@ -10,5 +10,6 @@
 - HTML
 - React Router DOM
 - React
+- TailwindCSS
 
 Project developed in order to practice my knowledge in the above topics.
