@@ -24,7 +24,7 @@ const Home = () => {
     );
   if (anime === null) return null;
   return (
-    <main className="w-full h-full bg-gray-200 p-4">
+    <main className="w-full h-full mt-5">
       <div className="max-w-[900px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
         {anime.map(anime => (
           <Link key={anime.mal_id} to={`animes/${anime.mal_id}`}>

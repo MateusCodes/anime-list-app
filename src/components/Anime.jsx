@@ -23,10 +23,10 @@ const Anime = () => {
   if (anime === null) return null;
   return (
     <main className="w-full h-full p-4">
-      <div className="max-w-[900px] mx-auto grid grid-cos-1 md:grid-cols-2 gap-5 justify-items-center">
+      <div className="max-w-[900px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 content-center justify-center">
         <div>
           <img
-            className="block rounded-xl w-[422px] h-[600px]"
+            className="block rounded-xl w-[422px] h-[600px] self-center"
             src={anime.images.jpg.large_image_url}
             alt=""
           />
